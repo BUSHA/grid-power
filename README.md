@@ -22,6 +22,16 @@ The following detector board is required:
 
 You also need an FT232 USB-UART adapter with an exposed CTS input. The detector board provides the isolation between the mains side and the FT232 low-voltage side.
 
+### Hardware used
+
+![1-Bit AC 220V optocoupler isolation/detection module](pics/AC.png)
+
+*1-Bit AC 220V Optocoupler Isolation Module Voltage Detect Board*
+
+![FT232 USB-UART adapter](pics/ft232.png)
+
+*FT232 USB-UART adapter with CTS exposed*
+
 The low-voltage connections are:
 
 | AC detector | FT232 adapter |
