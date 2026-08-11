@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Grid power icon">
+  <rect width="256" height="256" rx="48" fill="#172033"/>
+  <path d="M48 170h160M48 202h160" stroke="#2b9fc4" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+  <path d="M143 25 73 139h53l-16 92 73-124h-55z" fill="#f7c948"/>
+  <path d="M143 25 73 139h53" fill="none" stroke="#ffe58a" stroke-width="5" stroke-linejoin="round" opacity=".85"/>
+</svg>

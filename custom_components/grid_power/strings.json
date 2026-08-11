@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Grid power",
+        "description": "Monitor mains presence through the CTS input of an FT232 USB adapter.",
+        "data": {
+          "device": "Serial device",
+          "poll_interval": "Poll interval (seconds)",
+          "invert": "Invert CTS state"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot open the serial device or read CTS."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Grid power options",
+        "data": {
+          "device": "Serial device",
+          "poll_interval": "Poll interval (seconds)",
+          "invert": "Invert CTS state"
+        }
+      }
+    }
+  }
+}
