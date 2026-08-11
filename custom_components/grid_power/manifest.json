@@ -3,11 +3,11 @@
   "name": "Grid power",
   "codeowners": ["@BUSHA"],
   "config_flow": true,
-  "integration_type": "device",
-  "single_config_entry": true,
   "documentation": "https://github.com/BUSHA/grid-power",
   "issue_tracker": "https://github.com/BUSHA/grid-power/issues",
+  "integration_type": "device",
   "iot_class": "local_polling",
   "requirements": [],
+  "single_config_entry": true,
   "version": "1.0.0"
 }
