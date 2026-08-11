@@ -21,8 +21,8 @@ async def async_setup_entry(
 
 class GridPowerSensor(CoordinatorEntity[GridPowerCoordinator], BinarySensorEntity):
     _attr_device_class = BinarySensorDeviceClass.POWER
-    _attr_name = "Grid power"
     _attr_has_entity_name = True
+    _attr_translation_key = "grid_power"
 
     def __init__(self, coordinator: GridPowerCoordinator, entry: ConfigEntry) -> None:
         super().__init__(coordinator)

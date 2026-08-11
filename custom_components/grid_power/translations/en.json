@@ -26,5 +26,12 @@
         }
       }
     }
+  },
+  "entity": {
+    "binary_sensor": {
+      "grid_power": {
+        "name": "Grid power"
+      }
+    }
   }
 }
