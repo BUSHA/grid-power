@@ -42,6 +42,21 @@ The low-voltage connections are:
 
 The tested setup uses an FT232BL adapter and `/dev/ttyUSB1` on Home Assistant OS. Other FT232 boards and device paths may work, but must be tested with the specific hardware.
 
+### 3D-printed enclosure
+
+The repository includes STL files for a simple 3D-printed enclosure:
+
+- [Enclosure box](STL/GridPower_box.stl)
+- [Enclosure cap](STL/GridPower_cap.stl)
+
+The assembled device:
+
+![Grid power detector with the enclosure cap installed](pics/GridPower_preview1.jpeg)
+
+![Grid power detector with the enclosure open](pics/GridPower_preview2.jpeg)
+
+The enclosure is a project example. It is not a certified mains-voltage enclosure. Use a suitable certified enclosure and follow local electrical regulations for any permanent installation.
+
 ## Installation with HACS as a custom repository
 
 This integration is intentionally distributed as a custom HACS repository and is not part of the official HACS store.
